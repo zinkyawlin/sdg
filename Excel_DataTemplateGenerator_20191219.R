@@ -1,13 +1,9 @@
-# what this script does:
-# 1) it creates whole database backup in csv
-# 2) it creates backup excel files by SeriesID (with footnotes attached
-
+# This creates sdg data request templates (in traditional xlsx format).
 
 #Work
-setwd("C:/Users/Zin.Lin/OneDrive - United Nations/SDG_Database/0.1_Data Request Preparations/Excel_Templates")
+setwd("./0.1_Data Request Preparations/Excel_Templates")
 
-#home
-setwd("C:/Users/Owner/OneDrive - United Nations/SDG_Database/0.1_Data Request Preparations/Excel_Templates")
+
 
 library(RODBC)
 library(dplyr)
